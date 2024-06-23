@@ -1,0 +1,53 @@
+html, body {
+    overflow: hidden;
+    user-select: none;
+    padding: 0;
+    margin: 0
+}
+
+canvas {
+	width: 100%; 
+	height: 100%;
+	padding: 0
+}
+
+#aim {
+    position: fixed;
+    width: 5px;
+    height: 5px;
+    background-color: #f00;
+    top: 50%;
+    left: 50%;
+    transfrom: translate(-50%, -50%)
+}
+
+#score {
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    font-size: 20px;
+    font-family: monospace;
+    color: #c4c4c4
+}
+
+#deathmsg {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: monospace;
+    color: #fff;
+    text-align: center
+}
+
+#diebg {
+    transition: opacity 1s ease-in-out;
+    opacity: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #000;
+    z-index: 9999999
+}
