@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+
+<html>
+    
+<head>
+    
+    <!--Please dont judge this code because I havent fully learned all of JS and I wanted to put this into an html website so I could open from files and as a challenge(I dont know how to get data from the pipeline using React)-->
+    
+    <meta charset = "utf-8">
+    <meta name = "viewport" content = "width = device-width">
+    <title>Face Controlled 3D FPS</title>
+    <link href = "style.css" rel = "stylesheet" type = "text/css">
+    <script src = "https://cdn.jsdelivr.net/npm/@mediapipe/camera_utils/camera_utils.js" crossorigin = "anonymous"></script>
+    <script src = "https://cdn.jsdelivr.net/npm/@mediapipe/control_utils/control_utils.js" crossorigin = "anonymous"></script>
+    <script src = "https://cdn.jsdelivr.net/npm/@mediapipe/drawing_utils/drawing_utils.js" crossorigin = "anonymous"></script>
+    <script src = "https://cdn.jsdelivr.net/npm/@mediapipe/face_mesh/face_mesh.js" crossorigin = "anonymous"></script>
+    <script src = "https://cdnjs.cloudflare.com/ajax/libs/three.js/104/three.min.js"></script>
+    
+</head>
+    
+<body>
+    <video id = "input" style = "display: none"></video>
+    <div id = "aim"></div>
+    <div id = "score"></div>
+    <div id = "diebg">
+        <h1 id = "deathmsg"></h1>
+    </div>
+    <script src = "camera.js"></script>
+    <script src = "script.js"></script>
+    
+</body>
+    
+</html>
