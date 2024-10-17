@@ -19,6 +19,6 @@ My project had three main requirements:
 This project represents a blend of personal interest, technological exploration, and a commitment to self-improvement. By focusing on a simple yet impactful concept, I hope to contribute positively to the lives of others who share similar interests and challenges.
 
 -----------------------------------------------------------------------------------------------------------
-This is a very crude demo and not real health advice. Also if you like this idea and make this into a fully fledged buisness give me 50% LMAO
+This is a very crude demo and not real health advice.
 
 - *With Joy, Shaheer*
